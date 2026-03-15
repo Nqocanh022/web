@@ -1,49 +1,37 @@
 .header{
-    display: flex;
-    flex-direction: row;
-    background-image: url(https://bienquangcaohl.com.vn/wp-content/uploads/2023/08/bien-quang-cao-quan-cafe-dep-3.jpg);
+    background-image: url(../../picture.html/background.jpg);
     background-position: center;
+    width:fit-content;
+    height: 800px;
 }
 .container-1{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin:  80px;
-    width:100%;
-    height: 800px;
-}
-.khoi1{
-        display: block;
-        color: white;
-        justify-content: center;
-        position:fixed;
-        top: 0;
-        padding: 0px;
-        width: 1510px;
-}
-ul:focus {
-    color:aliceblue;
 }
 ul{
     display:flex;
-    justify-content:space-between;
+    list-style-type: none;
+    justify-content: space-around;
     align-items: center;
+    padding: 2px;
 }
 ul li {
    display:flex;
-   color: rgb(17, 16, 16);
-}
-li:hover {
-    color:rgb(7, 8, 9);
-    background-color: azure;
+   color: white;
+   padding: 45px;
+   font-size: 20px;
 }
 a{
-    color: rgb(242, 233, 233);
+    color: white;
     font-size: 20px;
     justify-content: right;
 }
 .logo{
-    width: 150px;
-    height:50px;
+    padding: 5px;
+    margin: 10px;
+    width: 250px;
+    height:120px;
 }
 button{
     background-color: aqua;
@@ -57,299 +45,123 @@ button:hover {
     background-color: white;
     color: aqua;
 }
-/* ABOUT */
 .container-2{
-    background-color: rgb(216, 211, 211);
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items:center;
-    justify-content:space-between;
-    height: 500px;
-}
-.khoi2{
-    width:80%;
-    margin:0 auto;              
-    align-items:center;
-    justify-content:center;     
-    gap:50px;   
-}
-.anh-1 {
-    max-width: 400px;
-    transition: transform 0.5s ease-in-out; 
-}
-.anh-1:hover {
-  transform: scale(1.2) rotate(10deg); /* Phóng to và xoay khi hover */
-}
-/* our service */
-.container-3{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,);
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(219, 217, 214);
+    border: 1px ;
+    padding: 20px;
+    height: 300px;
+}
+.container-3{
+   display: flex;
+   ;
     background-image: url(https://raw.githubusercontent.com/huyhaq/html_css_case_study_lab_1_2/refs/heads/main/image/09.jpg);
-    gap: 20px;
-    grid-template-areas:
-    "aa aa aa"; 
-}
-.item-1{
-    grid-area: aa;
-}
-.content-1{
-    display:grid;
-    grid-area: aa;
-    grid-template-columns: repeat(6,1fr);
     gap: 20px;
     padding: 20px;
     margin: 100px;
-    text-align: center;
-    overflow:scroll;
 
 }
 .img{
     max-width: 250px;
 }
-
 /* MENU */
 .container-4{
     background-color: rgb(225, 222, 217);
-    display:grid;
-    grid-template-areas: "aa aa aa";
-   
-}
-.item-8{
-   grid-area: aa;
-   font-size: 30px;
-   text-align: center;
-   color: black;
-   padding: 20px;
-   margin: 20px;
-}
-.content-2{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 15px;
+    padding: 10px;
+    margin: auto;
     font-size: 20px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.item-2{
+    display: grid;
+    gap: 20px;
+    padding: 20px;
 }
 .img-1{
     clip-path: circle(50% at 50% 50%);
     width: 150px;
     height: 150px;
     float: left;
-    margin: 20px;
 }
 /* <THỜI GIAN HOẠT ĐỘNG CỦA QUÁN>  */
 .container-5{
     background-image: url(https://raw.githubusercontent.com/huyhaq/html_css_case_study_lab_1_2/refs/heads/main/image/09.jpg);
     text-align: center;
-    height: 500px;
-    justify-content: space-evenly;
-}
-.content-3{
-    display: grid;
-    justify-content: space-evenly;
 }
  /* OUR GALLERY  */
 .container-6{
-    display: grid;
     padding: 10px;
-    grid-template-areas: "aa aa ";
-}
-.item-10{
-    grid-area: aa ;
-    text-align: center;
-    gap: 20px;
-    padding: 20px;
-}
-.content-4{
-    width:80%;
-    margin:auto;
     display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:20px;
+    grid-template-columns: repeat(4, 1fr);
 }
-.item-11 img{
-    width: 300px;
-    height:300px;
-    border-radius: 10px;
+.item-3{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
 }
-.item-11 img:hover{
-      transform: scale(1.5) rotate(10deg); 
-
+.item-3 img{
+    width: 150px;
+    height:150px;
+    border-radius: 5px;
 }
-
 /* BLOG */
 .container-7{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-image: url(https://noithatkendesign.vn/storage/app/media/uploaded-files/mau-thiet-ke-quan-cafe-chill-3.jpg);
+    background-image: url(https://raw.githubusercontent.com/huyhaq/html_css_case_study_lab_1_2/refs/heads/main/image/10.jpg);
 }
-.main-31{
-    text-align: center;
-    padding: 200px;
-    font-size: 20px;
-    
+.box-1{
+    border: 2px solid rgb(121, 104, 104);
+    padding: 20px;
+    margin: 20px;
+    color: white;
 }
-.main-3{
-    border: 1px solid rgb(210, 200, 200);
-    padding: 30px;
-    margin: 50px;
-}
-.main-3:hover{
-    background-image: url(https://cattour.vn/images/upload/images/da-lat/100-quan-cafe-o-da-lat/still-cafe.jpg);
-}
-/* REVIEW */
 .container-8{
     display: grid;
     text-align: center;
-    background-color: rgb(213, 215, 217);
-}
-.content-5{
-    display: grid;
-    grid-template-areas: "aa aa aa";
-}
-.item-12{
-    grid-area: aa;
-}
-.main-4{
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
     margin: 20px;
-    padding: 10px;
-    border: 1px solid pink;
-    background-color: white;
+    column-gap: 50px;
 }
-.item-12 img{
+.item-4{
     clip-path: circle(50% at 50% 50%);
-    width: 150px;
-    height: 150px;
+}
+.box-2{
+    border: 5px solid white;
+    background-color: rgb(225, 222, 217);
+    border-radius: 10px;
+    padding: 20px;
+    margin:20px;
 }
 /* Meet our chefs  */
 .container-9{
     background-image: url(https://raw.githubusercontent.com/huyhaq/html_css_case_study_lab_1_2/refs/heads/main/image/09.jpg);
-    display: grid;
-    grid-template-areas: "aa";
-    color:white;
-}
-.item-13{
-    grid-area: aa ;
     text-align: center;
 }
-.main-1{
-    display:grid;
-    grid-template-rows: repeat(2,1fr);
-}
-.main-1 img:hover{
-    transform: scale(1) rotate(5deg); 
-}
-.item-14{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    font-size: 20px;
+.box-3{
     padding: 20px;
-    margin:20px;
-    text-align: center;
-}
-.item-14 img{
-max-width: 70%;
-}
-.item-15{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-     font-size: 20px;
-    padding: 20px;
-    margin:20px;
-    text-align: center;
-}
-.item-15 img{ 
-    max-width: 70%;
-}
-.item-16{
-     display: grid;
-    grid-template-columns: repeat(2,1fr);
-     font-size: 20px;
-    padding: 20px;
-    margin:20px;
-    text-align: center;
-}
-.item-16 img{
-    max-width: 70%;
+    margin: 20px;
 }
 /* CONTACT */
 .container-10{
-    background:black;
-    padding:20px 0;
-    height: 400px;
-}
-.main-2{
-    width:80%;
-    margin:auto;
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows:auto auto auto;
-    gap:25px;
-}
-.main-2 input{
-    width:80%;
-    padding:18px;
-    border:none;
-    border-radius:6px;
-    font-size:16px;
-} 
-.item-17{ grid-column:1; grid-row:1; }
-.item-18{ grid-column:1; grid-row:2; }
-.item-19{ grid-column:1; grid-row:3; }
-
-.item-20{
-    grid-column:2;
-    grid-row:1 / span 2;
-}
-.item-20 input{
-    height:150px;
-}
-.item-22{
-    grid-column:2;
-    grid-row:3;
-}
-
-.item-22 button{
-    padding:15px 35px;
-    border:none;
-    border-radius:30px;
-    background:#17c1b6;
-    color:white;
-    font-size:16px;
-    cursor:pointer;
-    transition:0.3s;
-}
-
-.item-22 button:hover{
-    background:#0fa8a2;
+    background-color: black;
+    text-align: center;
+    gap: 50px;
 }
 /* FOOTER */
 .footer{
     background-image: url(https://github.com/huyhaq/html_css_case_study_lab_1_2/blob/main/image/10.jpg?raw=true);
     display:grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px;
     text-align: center;
+    gap: 20px;
     padding: 20px;
-    height: 250px;
-    justify-content: space-between;
 }
 .banner-2{
     display: flex;
-    flex-direction: row;
     background-color: black;
-    height: 150px;
-    justify-content: space-evenly;
-    padding: 20px;
-}
-.footer-4 img{
-    width: 250px;
-    height: 150px;
-}
-.footer-5{
-    font-size: 30px;
-}
-.footer-6{
-    display:flex;
-    flex-direction: row;
-    gap: 20px;
-    font-size: 40px;
 }
